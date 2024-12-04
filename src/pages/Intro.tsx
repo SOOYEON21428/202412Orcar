@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PageLayout from './PageLayout';
-import image1 from '../assets/image1.jpg';
+import image15 from '../assets/image15.jpg';
 import image2 from '../assets/image2.jpg';
 import image3 from '../assets/image3.jpg';
 
@@ -12,7 +12,7 @@ interface ImageData {
 
 const images: ImageData[] = [
   {
-    src: image1,
+    src: image15,
     alt: '[ERP]',
     description: '요즘 제가 하는 업무에요',
   },
