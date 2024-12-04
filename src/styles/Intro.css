@@ -1,0 +1,45 @@
+@import '../App.css';
+
+.Intro {
+  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto; /* 수평 스크롤 가능하게 */
+  padding: 10px 0;
+}
+
+.image-wrapper {
+  flex: 0 0 auto;
+  width: 150px; /* 이미지의 너비를 작게 설정 */
+  margin: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+  transform: scale(1); /* Simplified to only include scaling */
+}
+
+.image-wrapper img:hover {
+  transform: scale(1.1); /* Only scale on hover */
+}
+
+.image-description {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: black;
+}

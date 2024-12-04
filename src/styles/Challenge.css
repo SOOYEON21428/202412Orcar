@@ -1,0 +1,16 @@
+@import '../App.css';
+
+.HelloOrcarStudio {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+.goal h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #000000; /* 제목 색상을 검정색으로 설정 */
+}
+
+.goal p {
+  font-size: 1.1em;
+  color: #000000; /* 본문 색상을 검정색으로 설정 */
+  line-height: 1.6; /* 줄 간격 조정 */
+}
